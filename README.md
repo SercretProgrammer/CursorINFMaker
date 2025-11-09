@@ -6,14 +6,14 @@ CursorINFBuilder is a lightweight tool that automatically generates a Windows-co
 ✅ Auto-detects .cur and .ani cursor files  
 ✅ Generates a complete install.inf file  
 ✅ Supports custom cursor folders  
-⚠️ Warns about missing required cursor roles (Feature mot made yet)      
 ✅ No installation required – portable  
 ✅ 100% safe (does not modify system files)
 ## Usage
 1. Select your custom cursor folder.
 2. CursorINFBuilder scans the folder.
-3. It generates an `install.inf` inside that folder.
-4. Right-click the INF → Install.
+3. It generates an `install.inf` in the current folder.
+4. Mvoe the install.inf to your custom cursor folder
+5. Right-click the INF → Install.
 
 ## Supported Cursor Roles
 - Arrow
@@ -26,7 +26,7 @@ CursorINFBuilder is a lightweight tool that automatically generates a Windows-co
 - Link
 - Move
 - Resize directions
-- Person (Windows 11)
+- Person (Windows 11) (Maybe)
 
 ## License
 MIT
